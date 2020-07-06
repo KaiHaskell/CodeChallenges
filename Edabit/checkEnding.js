@@ -2,6 +2,9 @@
 // and returns true if the first string ends with the second string;
 // otherwise return false.
 
+const string = "hello";
+const string2 = "lo";
+
 function checkEnding(str1, str2) {
   //get the length of string2,
   //then slice that amount off of string1 and compare.
@@ -14,3 +17,5 @@ function checkEnding(str1, str2) {
   }
   return false;
 }
+
+checkEnding(string1, string2);
