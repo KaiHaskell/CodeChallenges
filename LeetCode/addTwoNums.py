@@ -18,8 +18,7 @@ class Solution:
         # traverse the lists
         while l1 or l2 or carry:
             # add the carry to sum if it exists
-            sum = 0
-            sum = sum + carry
+            sum = carry
             carry = 0
             # add the first value to sum
             # then move to the next node
