@@ -18,8 +18,6 @@
 # For example, a test input of head: [2, 4 ,6] indicates that the input is a singly-linked list
 # (2) -> (4) -> (6) -> null whose head is the first element in the linked list.
 
-# Singly-linked lists are already defined with this interface:
-
 
 class ListNode(object):
     def __init__(self, x):
