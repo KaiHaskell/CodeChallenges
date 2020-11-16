@@ -51,6 +51,10 @@ def remove_kth_from_end(head, k):
 
         return [200]
 
+    # if k == length
+    #   head = head.next
+    #   return head
+
     for i in range(0, length - k):
         prev = current
         current = current.next
@@ -58,3 +62,6 @@ def remove_kth_from_end(head, k):
     prev.next = current.next
 
     return head
+
+    # Space Complexity: Best Case O(1)| Worst Case O(1)
+    # Time Complexity: Best Case O(n) | Worst Case O(2n)

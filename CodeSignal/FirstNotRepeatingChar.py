@@ -44,3 +44,13 @@ def first_not_repeating_character(s):
         if frequency[char] == 1:
             return char
     return "_"
+
+
+first_not_repeating_character("abacabad")
+
+# Space Complexity: O(n) [Could be better based off of my second loop]
+# Time Complexity: O(n)
+
+# The time complexity grows in a linear fashion based on the input
+
+# Hashtables are O(1) lookup
